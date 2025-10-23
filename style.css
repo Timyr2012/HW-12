@@ -58,7 +58,7 @@ body{
     height: 250px;
 }
 
-.more:hover{
+.more{
     display: flex;
     background-color: rgb(255, 235, 120);
     padding: 20px 200px ;
@@ -66,10 +66,11 @@ body{
     font-family:'Times New Roman', Times, serif;
     font-weight: 800;
     margin: 30px auto;
-    box-shadow: 0px 5px 15px 11px  rgb(255, 0, 0), 0px 20px 15px 11px rgb(255, 145, 0), 0px 30px 15px 11px rgb(255, 230, 0), 0px 40px 15px 11px rgb(136, 255, 0), 0px 50px 15px 11px rgb(0, 255, 221),0px 60px 15px 11px rgb(0, 89, 255),0px 70px 15px 11px rgb(212, 0, 255);
 }
 
-
+.more:hover{
+    box-shadow: 0px 5px 15px 11px  rgb(255, 0, 0), 0px 20px 15px 11px rgb(255, 145, 0), 0px 30px 15px 11px rgb(255, 230, 0), 0px 40px 15px 11px rgb(136, 255, 0), 0px 50px 15px 11px rgb(0, 255, 221),0px 60px 15px 11px rgb(0, 89, 255),0px 70px 15px 11px rgb(212, 0, 255);
+}
 
 
 
@@ -78,3 +79,4 @@ body{
     margin: 1000px;
 
 }
+
