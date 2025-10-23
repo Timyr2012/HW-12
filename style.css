@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: linear-gradient(rgb(255, 254, 196),rgb(255, 244, 94),rgb(253, 249, 0),rgb(155, 144, 0));
 }
 
 .container{
@@ -11,6 +10,7 @@ body{
 
 .header{
     background-color:#47acff;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255),rgb(100, 100, 100),rgb(20, 100, 30));
 }
 
 
@@ -44,6 +44,7 @@ body{
 .gallery{
     margin-top: 40px;
     margin-bottom: 40px;
+    background-image: linear-gradient(rgb(255, 254, 196),rgb(255, 244, 94),rgb(253, 249, 0),rgb(155, 144, 0));
 }
 
 .gallery-list{
@@ -57,7 +58,7 @@ body{
     height: 250px;
 }
 
-.more{
+.more:hover{
     display: flex;
     background-color: rgb(255, 235, 120);
     padding: 20px 200px ;
@@ -68,7 +69,12 @@ body{
     box-shadow: 0px 5px 15px 11px  rgb(255, 0, 0), 0px 20px 15px 11px rgb(255, 145, 0), 0px 30px 15px 11px rgb(255, 230, 0), 0px 40px 15px 11px rgb(136, 255, 0), 0px 50px 15px 11px rgb(0, 255, 221),0px 60px 15px 11px rgb(0, 89, 255),0px 70px 15px 11px rgb(212, 0, 255);
 }
 
+
+
+
+
 .maggot{
     font-size: 0px;
     margin: 1000px;
+
 }
