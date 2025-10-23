@@ -42,8 +42,8 @@ body{
 }
 
 .gallery{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-image: linear-gradient(rgb(255, 254, 196),rgb(255, 244, 94),rgb(253, 249, 0),rgb(155, 144, 0));
 }
 
@@ -79,4 +79,5 @@ body{
     margin: 1000px;
 
 }
+
 
